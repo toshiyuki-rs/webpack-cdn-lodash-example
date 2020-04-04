@@ -1,0 +1,29 @@
+{
+  "name": "webpack-cdn-lodash-example",
+  "version": "1.0.0",
+  "description": "This example is a way to use webpack with cdn lodash.",
+  "main": "index.js",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "lodash": "^4.17.15",
+    "source-map-loader": "^0.2.4",
+    "webpack-cli": "^3.3.11",
+    "webpack-cdn-plugin": "^3.2.2",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cdn",
+    "example",
+    "lodash",
+    "externals",
+    "webpack",
+    "html"
+  ],
+  "author": "Toshiyuki Ogawa",
+  "license": "ISC"
+}

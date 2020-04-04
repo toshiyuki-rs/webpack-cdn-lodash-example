@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import  _ from 'lodash';
 
 class Main {
   
@@ -15,7 +15,8 @@ class Main {
   run() {
     const elem = document.getElementById('message');
     const tmp = _.template('<%= message %>');
-    elem.innerHTML = tmp({'message': 'hello world'});
+
+    elem.innerHTML = tmp({'message': 'hello webpack'});
   }
 }
 

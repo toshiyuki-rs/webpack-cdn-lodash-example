@@ -1,0 +1,6 @@
+[submodule "webpack-cdn-plugin"]
+	path = webpack-cdn-plugin
+	url = https://github.com/shirotech/webpack-cdn-plugin.git
+[submodule "html-webpack-plugin"]
+	path = html-webpack-plugin
+	url = https://github.com/jantimon/html-webpack-plugin.git
